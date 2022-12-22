@@ -1,5 +1,5 @@
 import unittest
-from functions import Position
+from functions import Position, a, b, c, d, my_list
 
 
 class Test(unittest.TestCase):
@@ -46,10 +46,5 @@ class Test(unittest.TestCase):
         self.assertNotIn(d, my_list)
 
 
-a = Position('ilia', 'kvetenadze', 'student', {'wage': 4000, 'bonus': 3000})
-b = Position('ilia', 'kvetenadze', 'student', {'wage': 4000, 'bonus': 3000})
-d = Position('ilia', 'kvetenadze', 'student', {'wage': 4000, 'bonus': 3000})
-c = a
-my_list = [a, b, c]
 if __name__ == '__main__':
     unittest.main()

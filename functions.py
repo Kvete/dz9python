@@ -10,3 +10,10 @@ class Position:
 
     def get_total_income(self):
         return self._income["wage"] + self._income["bonus"]
+
+
+a = Position('ilia', 'kvetenadze', 'student', {'wage': 4000, 'bonus': 3000})
+b = Position('ilia', 'kvetenadze', 'student', {'wage': 4000, 'bonus': 3000})
+d = Position('ilia', 'kvetenadze', 'student', {'wage': 4000, 'bonus': 3000})
+c = a
+my_list = [a, b, c]
